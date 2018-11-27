@@ -22,6 +22,9 @@
 		656CC31C21AB88CA005E9729 /* MovieListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656CC31B21AB88CA005E9729 /* MovieListController.swift */; };
 		656CC31E21AB9ACE005E9729 /* MovieVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656CC31D21AB9ACE005E9729 /* MovieVO.swift */; };
 		657225C821ABA69900D52D1F /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657225C721ABA69900D52D1F /* MovieCell.swift */; };
+		65DA8E7421ACDCC900CD4CE3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DA8E7321ACDCC900CD4CE3 /* DetailViewController.swift */; };
+		65DA8E7621ACF8C500CD4CE3 /* TheaterListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DA8E7521ACF8C500CD4CE3 /* TheaterListController.swift */; };
+		65DA8E7821AD122700CD4CE3 /* TheaterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DA8E7721AD122700CD4CE3 /* TheaterCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +47,9 @@
 		656CC31B21AB88CA005E9729 /* MovieListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListController.swift; sourceTree = "<group>"; };
 		656CC31D21AB9ACE005E9729 /* MovieVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieVO.swift; sourceTree = "<group>"; };
 		657225C721ABA69900D52D1F /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		65DA8E7321ACDCC900CD4CE3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		65DA8E7521ACF8C500CD4CE3 /* TheaterListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheaterListController.swift; sourceTree = "<group>"; };
+		65DA8E7721AD122700CD4CE3 /* TheaterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheaterCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,9 @@
 				656CC31B21AB88CA005E9729 /* MovieListController.swift */,
 				656CC31D21AB9ACE005E9729 /* MovieVO.swift */,
 				657225C721ABA69900D52D1F /* MovieCell.swift */,
+				65DA8E7321ACDCC900CD4CE3 /* DetailViewController.swift */,
+				65DA8E7521ACF8C500CD4CE3 /* TheaterListController.swift */,
+				65DA8E7721AD122700CD4CE3 /* TheaterCell.swift */,
 			);
 			path = OpenAPI1126;
 			sourceTree = "<group>";
@@ -228,9 +237,12 @@
 				656CC31C21AB88CA005E9729 /* MovieListController.swift in Sources */,
 				656CC31121AB884D005E9729 /* OpenAPI1126.xcdatamodeld in Sources */,
 				657225C821ABA69900D52D1F /* MovieCell.swift in Sources */,
+				65DA8E7621ACF8C500CD4CE3 /* TheaterListController.swift in Sources */,
+				65DA8E7821AD122700CD4CE3 /* TheaterCell.swift in Sources */,
 				656CC30B21AB884C005E9729 /* ViewController.swift in Sources */,
 				656CC30921AB8848005E9729 /* AppDelegate.swift in Sources */,
 				656CC31E21AB9ACE005E9729 /* MovieVO.swift in Sources */,
+				65DA8E7421ACDCC900CD4CE3 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
