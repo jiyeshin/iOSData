@@ -22,6 +22,11 @@
 		656CC31C21AB88CA005E9729 /* MovieListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656CC31B21AB88CA005E9729 /* MovieListController.swift */; };
 		656CC31E21AB9ACE005E9729 /* MovieVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656CC31D21AB9ACE005E9729 /* MovieVO.swift */; };
 		657225C821ABA69900D52D1F /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657225C721ABA69900D52D1F /* MovieCell.swift */; };
+		65AEB6FA21AE300B0023CBB0 /* DisplayMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AEB6F921AE300B0023CBB0 /* DisplayMapViewController.swift */; };
+		65AEB6FD21AE320E0023CBB0 /* MemoListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AEB6FC21AE320E0023CBB0 /* MemoListVC.swift */; };
+		65AEB70221AE416F0023CBB0 /* MemoFormVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AEB70121AE416F0023CBB0 /* MemoFormVC.swift */; };
+		65AEB70421AE60FB0023CBB0 /* MemoReadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AEB70321AE60FB0023CBB0 /* MemoReadVC.swift */; };
+		65AEB70621AE699D0023CBB0 /* MemoVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AEB70521AE699D0023CBB0 /* MemoVO.swift */; };
 		65DA8E7421ACDCC900CD4CE3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DA8E7321ACDCC900CD4CE3 /* DetailViewController.swift */; };
 		65DA8E7621ACF8C500CD4CE3 /* TheaterListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DA8E7521ACF8C500CD4CE3 /* TheaterListController.swift */; };
 		65DA8E7821AD122700CD4CE3 /* TheaterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DA8E7721AD122700CD4CE3 /* TheaterCell.swift */; };
@@ -47,6 +52,11 @@
 		656CC31B21AB88CA005E9729 /* MovieListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListController.swift; sourceTree = "<group>"; };
 		656CC31D21AB9ACE005E9729 /* MovieVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieVO.swift; sourceTree = "<group>"; };
 		657225C721ABA69900D52D1F /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		65AEB6F921AE300B0023CBB0 /* DisplayMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayMapViewController.swift; sourceTree = "<group>"; };
+		65AEB6FC21AE320E0023CBB0 /* MemoListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListVC.swift; sourceTree = "<group>"; };
+		65AEB70121AE416F0023CBB0 /* MemoFormVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoFormVC.swift; sourceTree = "<group>"; };
+		65AEB70321AE60FB0023CBB0 /* MemoReadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoReadVC.swift; sourceTree = "<group>"; };
+		65AEB70521AE699D0023CBB0 /* MemoVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoVO.swift; sourceTree = "<group>"; };
 		65DA8E7321ACDCC900CD4CE3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		65DA8E7521ACF8C500CD4CE3 /* TheaterListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheaterListController.swift; sourceTree = "<group>"; };
 		65DA8E7721AD122700CD4CE3 /* TheaterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheaterCell.swift; sourceTree = "<group>"; };
@@ -105,6 +115,15 @@
 		656CC30721AB8846005E9729 /* OpenAPI1126 */ = {
 			isa = PBXGroup;
 			children = (
+				656CC31B21AB88CA005E9729 /* MovieListController.swift */,
+				656CC31D21AB9ACE005E9729 /* MovieVO.swift */,
+				657225C721ABA69900D52D1F /* MovieCell.swift */,
+				65DA8E7321ACDCC900CD4CE3 /* DetailViewController.swift */,
+				65DA8E7521ACF8C500CD4CE3 /* TheaterListController.swift */,
+				65DA8E7721AD122700CD4CE3 /* TheaterCell.swift */,
+				65AEB6F921AE300B0023CBB0 /* DisplayMapViewController.swift */,
+				65AEB70021AE37060023CBB0 /* Movie */,
+				65AEB6FB21AE31020023CBB0 /* Memo */,
 				656CC30821AB8848005E9729 /* AppDelegate.swift */,
 				656CC30A21AB884C005E9729 /* ViewController.swift */,
 				656CC30C21AB884D005E9729 /* Main.storyboard */,
@@ -112,14 +131,26 @@
 				656CC31421AB8854005E9729 /* LaunchScreen.storyboard */,
 				656CC31721AB8855005E9729 /* Info.plist */,
 				656CC30F21AB884D005E9729 /* OpenAPI1126.xcdatamodeld */,
-				656CC31B21AB88CA005E9729 /* MovieListController.swift */,
-				656CC31D21AB9ACE005E9729 /* MovieVO.swift */,
-				657225C721ABA69900D52D1F /* MovieCell.swift */,
-				65DA8E7321ACDCC900CD4CE3 /* DetailViewController.swift */,
-				65DA8E7521ACF8C500CD4CE3 /* TheaterListController.swift */,
-				65DA8E7721AD122700CD4CE3 /* TheaterCell.swift */,
 			);
 			path = OpenAPI1126;
+			sourceTree = "<group>";
+		};
+		65AEB6FB21AE31020023CBB0 /* Memo */ = {
+			isa = PBXGroup;
+			children = (
+				65AEB6FC21AE320E0023CBB0 /* MemoListVC.swift */,
+				65AEB70121AE416F0023CBB0 /* MemoFormVC.swift */,
+				65AEB70321AE60FB0023CBB0 /* MemoReadVC.swift */,
+				65AEB70521AE699D0023CBB0 /* MemoVO.swift */,
+			);
+			name = Memo;
+			sourceTree = "<group>";
+		};
+		65AEB70021AE37060023CBB0 /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Movie;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,13 +267,18 @@
 			files = (
 				656CC31C21AB88CA005E9729 /* MovieListController.swift in Sources */,
 				656CC31121AB884D005E9729 /* OpenAPI1126.xcdatamodeld in Sources */,
+				65AEB70221AE416F0023CBB0 /* MemoFormVC.swift in Sources */,
 				657225C821ABA69900D52D1F /* MovieCell.swift in Sources */,
 				65DA8E7621ACF8C500CD4CE3 /* TheaterListController.swift in Sources */,
 				65DA8E7821AD122700CD4CE3 /* TheaterCell.swift in Sources */,
 				656CC30B21AB884C005E9729 /* ViewController.swift in Sources */,
+				65AEB6FA21AE300B0023CBB0 /* DisplayMapViewController.swift in Sources */,
 				656CC30921AB8848005E9729 /* AppDelegate.swift in Sources */,
 				656CC31E21AB9ACE005E9729 /* MovieVO.swift in Sources */,
+				65AEB70621AE699D0023CBB0 /* MemoVO.swift in Sources */,
+				65AEB70421AE60FB0023CBB0 /* MemoReadVC.swift in Sources */,
 				65DA8E7421ACDCC900CD4CE3 /* DetailViewController.swift in Sources */,
+				65AEB6FD21AE320E0023CBB0 /* MemoListVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
